@@ -1,0 +1,68 @@
+body {
+  background-color: #f67575;
+}
+
+.upper-sec {
+  background-color: #d63447;
+  height: 200px;
+  padding: 5%;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.upper-sec:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.button-one {
+  margin: 30%;
+  width: 50%;
+  border-radius: 50px;
+  border: 5px solid black;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.button-one:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+.clickme {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 3rem;
+  color: #d63447;
+}
+
+.lower-sec {
+  background-color: #ff1e56;
+  height: 200px;
+  padding: 5%;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.lower-sec:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.hidden {
+  opacity: 0;
+}
+
+.nowshow {
+  opacity: 100;
+}
+
+.gif {
+  background-image: url('https://media.giphy.com/media/5bmgE7eHSYkvGNQ1Yl/giphy.gif');
+  background-repeat: round	; 
+    height: 100%;
+    padding:0;
+    margin:10%;
+}
